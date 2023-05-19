@@ -53,7 +53,8 @@ $client = new Client('http://localhost:7700', '9f0a5ea64ff5a28f1e4f5e600d64bf453
 //     'maxValuesPerFacet' => 2
 // ]));
 
-print_r($client->index('movie')->updatePagination([
-    'maxTotalHits' => 500,
-]));
+// print_r($client->index('movies')->updatePagination([
+//     'maxTotalHits' => 500,
+// ]));
 
+print_r($client->deleteIndex('movie'));
