@@ -13,4 +13,4 @@ $client = new Client('http://localhost:7700', '9f0a5ea64ff5a28f1e4f5e600d64bf453
 
 // print_r($client->getTask(0));
 // print_r($client->index('movies')->search('botman'));
-print_r($client->getKeys());
+// print_r($client->getKeys());
